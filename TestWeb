@@ -1,1 +1,135 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meine Kleidungsmarke</title>
+	<style>
+		header {
+			background-color: black;
+			color: white;
+			padding: 20px;
+			position: relative;
+		}
+		
+		h1 {
+			margin: 0;
+			font-size: 40px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		
+		nav {
+			display: inline-block;
+			vertical-align: middle;
+			float: right;
+		}
+		
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		li {
+			display: inline-block;
+			margin-left: 20px;
+		}
+		
+		li:first-child {
+			margin-left: 0;
+		}
+		
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			text-decoration: underline;
+		}
+		
+		.featured {
+			padding: 50px;
+			background-color: #eee;
+			text-align: center;
+		}
+		
+		.products {
+			padding: 50px;
+			background-color: white;
+			text-align: center;
+		}
+		
+		h2 {
+			margin-top: 0;
+		}
+		
+		.product {
+			display: inline-block;
+			margin: 20px;
+			text-align: center;
+		}
+		
+		img {
+			max-width: 100%;
+		}
+		
+		h3 {
+			margin: 10px 0;
+		}
+		
+		.price {
+			font-size: 20px;
+			color: #666;
+		}
+		
+		button {
+			background-color: black;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 20px;
+			cursor: pointer;
+			margin-top: 10px;
+			transition: background-color 0.3s;
+		}
+		
+		button:hover {
+			background-color: #444;
+		}
+		
+		.youtube-button {
+			background-color: red;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background-image: url('youtube-logo.png');
+			background-repeat: no-repeat;
+			background-size: 30px;
+			background-position: center;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			border: none;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Meine Kleidungsmarke</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Startseite</a></li>
+				<li><a href="#">Über uns</a></li>
+				<li><a href="#">Kleidung</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+		<a href="https://www.youtube.com">
+			<button class="youtube-button"></button>
+		</a>
+	</header>
+	<main>
+		<section class="featured">
+			<h2>Featured</h2>
